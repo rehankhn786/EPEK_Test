@@ -1,0 +1,20 @@
+<div class="toolbar">
+    <button mat-icon-button>
+        <mat-icon>home</mat-icon>
+    </button>
+    <span>My App</span>
+</div>
+
+
+
+<div class="content">
+    <h2>Welcome</h2>
+    <div class="card-container">
+        <mat-card (click)="addIssueDialog()" class="card">
+            <span>Add Issues</span>
+        </mat-card>
+        <mat-card class="card" (click)="selectPage('issues')">
+            <span>View Issues</span>
+        </mat-card>
+    </div>
+</div>

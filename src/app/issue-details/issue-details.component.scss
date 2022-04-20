@@ -1,0 +1,48 @@
+.toolbar{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    height:60px;
+    display:flex;
+    align-items: center;
+    background-color: #1976d2;
+    color:white;
+    font-weight:600;
+}
+.container {
+    height: 100%;
+    padding: 0 15px;
+}
+.table-div {
+    overflow-x: auto;
+    border-radius: 6px;
+    max-width: 860px;
+    margin: 0 auto;
+    margin-top: 100px;
+	min-height: 200px;
+}
+.mat-elevation-container {width: 860px;}
+table {
+    /* margin: 0px auto; */
+    width: 100%;
+    /* overflow-x: auto; */
+}
+.not-found {
+    text-align: center;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+	flex-direction: column;
+}
+.not-found .mat-icon {
+    font-size: 36px;
+    color: red;
+    border: 1px solid;
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
